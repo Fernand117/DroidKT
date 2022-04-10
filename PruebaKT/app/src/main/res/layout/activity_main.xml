@@ -11,17 +11,26 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <EditText
-            android:id="@+id/txtNombre"
+            android:id="@+id/txtUsuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nombre"/>
+            android:hint="Usuario"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"/>
 
         <Button
-            android:id="@+id/btnClickMe"
+            android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Click me!!"/>
+            android:text="Iniciar sesión"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
